@@ -2,3 +2,7 @@
 
 /dist
 /coverage
+/tmp
+/build
+/node_modules
+/docs

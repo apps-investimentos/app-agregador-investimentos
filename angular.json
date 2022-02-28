@@ -1,9 +1,8 @@
 {
-  "version": 2,
-  "projects": {
-    "api": "apps/api",
-    "api-interfaces": "libs/api-interfaces",
-    "app": "apps/app",
-    "app-e2e": "apps/app-e2e"
-  }
+    "version": 2,
+    "projects": {
+        "api": "apps/api",
+        "app": "apps/app",
+        "app-e2e": "apps/app-e2e"
+    }
 }

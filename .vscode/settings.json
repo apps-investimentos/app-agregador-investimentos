@@ -1,0 +1,84 @@
+{
+    "files.exclude": {
+        // ======================================
+        // EXCLUSÃO RAIZ
+        // ======================================
+        ".vscode": true,
+        ".angular": true,
+        "libs": true,
+        "tools": true,
+        "node_modules": true,
+        "dist": true,
+        "build": true,
+        "coverage": true,
+        "docs": true,
+        "tmp": true,
+        ".editorconfig": true,
+        ".eslintrc.json": true,
+        ".gitignore": true,
+        ".prettierignore": true,
+        ".prettierrc": true,
+        "angular.json": true,
+        "decorate-angular-cli.js": true,
+        "jest.config.js": true,
+        "jest.preset.js": true,
+        "nx.json": true,
+        "migrations.json": true,
+        "package-lock.json": true,
+        "README.md": true,
+        "Procfile": true,
+        "tsconfig.base.json": true,
+        ".dockerignore": true,
+        "docker-compose.yml": true,
+        "docker-compose.prod.yml": true,
+        // ======================================
+        // Exclusão API - BackEnd
+        // ======================================
+        "apps/api/.eslintrc.json": true,
+        "apps/api/jest.config.js": true,
+        "apps/api/project.json": true,
+        "apps/api/tsconfig.app.json": true,
+        "apps/api/tsconfig.json": true,
+        "apps/api/tsconfig.spec.json": true,
+        "apps/api/webpack.config.js": true,
+        // "apps/api/src/main.ts": true,
+        "apps/api/src/Dockerfile": true,
+        // ======================================
+        // Exclusão APP - FrontEnd
+        // ======================================
+        "apps/app/.browserslistrc": true,
+        "apps/app/.eslintrc.json": true,
+        "apps/app/tsconfig.spec.json": true,
+        "apps/app/tsconfig.app.json": true,
+        "apps/app/tsconfig.editor.json": true,
+        "apps/app/tsconfig.json": true,
+        "apps/app/jest.config.js": true,
+        "apps/app/project.json": true,
+        "apps/app/ngsw-config.json": true,
+        "apps/app/src/test-setup.ts": true,
+        "apps/app/src/polyfills.ts": true,
+        // "apps/app/src/main.ts": true,
+        "apps/app/src/Dockerfile": true,
+        "apps/app/src/favicon.ico": true,
+        "apps/app/src/index.html": true,
+        "apps/app/src/manifest.webmanifest": true,
+        // ======================================
+        // Exclusão APP E2E - FrontEnd E2E
+        // ======================================
+        "apps/app-e2e": true,
+    },
+    "eslint.validate": [
+        "typescript",
+        "typescriptreact"
+    ],
+    // "eslint.codeActionsOnSave.mode": "problems",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "debug.toolBarLocation": "hidden",
+    "debug.showInStatusBar": "never",
+    "html.format.wrapAttributes": "preserve",
+    "html.format.wrapLineLength": 400
+}
